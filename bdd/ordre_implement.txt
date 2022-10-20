@@ -1,0 +1,12 @@
+1 utilisateur 
+2 promo 
+3 Fournisseur_commande
+4 categorie 
+5 sous_categorie
+6 adresse 
+7 commande 
+8 produit 
+9 detail_commande 
+10 livraison 
+11 detail_livraison
+12 deduit
