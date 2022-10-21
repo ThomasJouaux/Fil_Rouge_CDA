@@ -25,3 +25,4 @@ WHERE commande_statut = commande_non_solde;
 END;
 
 CALL commande_statut('En cours de livraison')
+blop
