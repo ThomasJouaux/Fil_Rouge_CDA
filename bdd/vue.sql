@@ -29,6 +29,11 @@ CALL commande_statut('En cours de livraison')
 
 ------------------------PROCEDURE STOCKEE 2 -------------------------------
 
-CREATE PROCEDURE delai_moyen(IN )
-BEGIN;
+CREATE PROCEDURE delai_moyen ()
+BEGIN
 SELECT  datediff(commande_date, facturation_date ) from commande;
+end;
+
+
+
+CALL delai_moyen();
