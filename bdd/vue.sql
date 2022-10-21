@@ -25,3 +25,10 @@ WHERE commande_statut = commande_non_solde;
 END;
 
 CALL commande_statut('En cours de livraison')
+
+
+------------------------PROCEDURE STOCKEE 2 -------------------------------
+
+CREATE PROCEDURE delai_moyen(IN )
+BEGIN;
+SELECT  datediff(commande_date, facturation_date ) from commande;
