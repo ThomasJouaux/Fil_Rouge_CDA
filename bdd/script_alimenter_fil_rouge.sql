@@ -51,11 +51,11 @@ VALUES
 
 INSERT INTO commande(commande_id , commande_statut , moyen_reglement , paye , facturation_date , commande_date , adresse_id , utilisateur_id , adresse_id_1)
 VALUES
-(1 , "En cours de livraison" , "CB" , "Y" , "2022-06-12" , "2022-06-12",1 ,1 ,1 ),
-(2, "Pas encore envoyer" , "PayPal" , "Y" , "2021-05-14" , "2021-05-14",2,2,2),
-(3 , "Livré" , "CB" , "Y" , "2012-06-12" , "2012-06-12",3,3,3 ),
+(1 , "En cours de livraison" , "CB" , "Y" , "2022-06-12" , "2022-06-15",1 ,1 ,1 ),
+(2, "Pas encore envoyer" , "PayPal" , "Y" , "2021-05-14" , "2021-05-18",2,2,2),
+(3 , "Livré" , "CB" , "Y" , "2012-06-12" , "2012-06-13",3,3,3 ),
 (4 , "livré" , "cheque" , "N" , NULL, "1995-05-11",4,4,4),
-(5 , "recu" , "CB" , "Y" , "2022-05-11", "2022-05-11",2,2,2);
+(5 , "recu" , "CB" , "Y" , "2022-05-11", "2022-05-15",2,2,2);
 
 
   INSERT INTO produit (produit_id,`produit_nom`,`produit_en_stock`,`produit_description`,`produit_image`,`produit_actif`,`produit_tva` , sous_categorie_id , fournisseur_id)
